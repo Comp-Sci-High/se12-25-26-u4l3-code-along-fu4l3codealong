@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #005f27; /* Dark green from logo */
+    color: #ffffff; /* White text */
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #005f27; /* Dark green from logo */
+    border-bottom: 2px solid #91c90e; /* Light green from logo */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #91c90e; /* Light green */
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+#features ul li a {
+    text-decoration: none;
+    color: #91c90e; /* Light green */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#features ul li a:hover {
+    color: #ffffff; /* White on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #91c90e; /* Light green */
+    background-color: #004d20; /* Darker green */
+    border-radius: 5px;
+}
+
+section h2 {
+    color: #91c90e; /* Light green */
+    border-bottom: 2px solid #91c90e;
+    padding-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004d20; /* Darker green */
+    border-top: 2px solid #91c90e; /* Light green */
+}
+
+/* Profile Section */
+#student-profile {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #91c90e; /* Light green border */
+    background-color: #004d20; /* Darker green background */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile-header {
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #91c90e; /* Light green border */
+    background-color: #003b16; /* Deep green fallback background */
+    object-fit: cover;
+}
+
+.profile-header h2 {
+    color: #91c90e; /* Light green text */
+    margin-top: 10px;
+}
+
+.profile-details p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.profile-details strong {
+    color: #91c90e; /* Highlight key text in light green */
+}
